@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ceau9aXM5g4QH6D6jgQrFhcs1ZDCNLxDmWCRUBiqd3A=",
+  "Source": "backend-accountledger",
+  "BasePath": "_content/backend-accountledger",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
