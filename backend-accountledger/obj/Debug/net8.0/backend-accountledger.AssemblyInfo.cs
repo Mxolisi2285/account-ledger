@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("backend-accountledger")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd72b853e86073c70d5f3fa0b07326189e81e8bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("backend-accountledger")]
 [assembly: System.Reflection.AssemblyTitleAttribute("backend-accountledger")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

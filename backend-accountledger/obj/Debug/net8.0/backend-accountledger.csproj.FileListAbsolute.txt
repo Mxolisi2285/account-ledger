@@ -35,3 +35,4 @@
 /home/faceless-object/AccountLedger/backend-accountledger/obj/Debug/net8.0/backend-accountledger.pdb
 /home/faceless-object/AccountLedger/backend-accountledger/obj/Debug/net8.0/backend-accountledger.genruntimeconfig.cache
 /home/faceless-object/AccountLedger/backend-accountledger/obj/Debug/net8.0/ref/backend-accountledger.dll
+/home/faceless-object/AccountLedger/backend-accountledger/obj/Debug/net8.0/backend-accountledger.sourcelink.json

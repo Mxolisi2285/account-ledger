@@ -13,14 +13,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 // 1. CORS
 builder.Services.AddCors(options => options.AddPolicy("AngularClient", policy =>
-    policy.WithOrigins("http://localhost:41383").AllowAnyHeader().AllowAnyMethod()));
+    policy.WithOrigins("http://localhost:34857").AllowAnyHeader().AllowAnyMethod()));
 
 // 2. Database (PostgreSQL)
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddSingleton<NpgsqlDataSource>(_ =>
 {
     var dataSourceBuilder = new NpgsqlDataSourceBuilder(connectionString);
-    return dataSourceBuilder.Build(); // ✅ No premature BuildServiceProvider()
+    return dataSourceBuilder.Build(); 
 });
 
 builder.Services.AddScoped<IDbConnection>(sp =>
@@ -74,7 +74,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors("AngularClient");          // ✅ CORS first — before everything
+app.UseCors("AngularClient");          
 app.UseHttpsRedirection();             
 app.UseAuthentication();
 app.UseAuthorization();
