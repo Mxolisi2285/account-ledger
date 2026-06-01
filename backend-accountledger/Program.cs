@@ -13,7 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // 1. CORS
 builder.Services.AddCors(options => options.AddPolicy("AngularClient", policy =>
-    policy.WithOrigins("http://localhost:34857").AllowAnyHeader().AllowAnyMethod()));
+    policy.WithOrigins("http://localhost:4200").AllowAnyHeader().AllowAnyMethod()));
 
 // 2. Database (PostgreSQL)
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
